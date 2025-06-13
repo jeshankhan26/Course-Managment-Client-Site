@@ -1,12 +1,52 @@
-# React + Vite
+# 📚 Course Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, full-stack Course Management System designed for students and instructors. Built with React, Firebase, MongoDB, and Tailwind CSS, the system offers secure authentication, dynamic course browsing, role-based access, and more — all with a responsive and animated UI.
 
-Currently, two official plugins are available:
+🌐 **Live Preview**: [course-managment-system.netlify.app](https://course-managment-system.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 **Firebase Authentication**
+  - Register, Login, and Protected Routes
+
+- 📚 **Course Browsing & Enrollment**
+  - Browse and view courses by categories
+  - Enroll in available courses (Student role)
+
+- 👩‍🏫 **Instructor Dashboard**
+  - Add, update, and manage own courses
+  - Track enrollments and course status
+
+- 💻 **Responsive & Interactive UI**
+  - Built with Tailwind CSS and Framer Motion
+  - Carousel, animated transitions, and more
+
+---
+
+## 🛠 Tech Stack
+
+| Frontend            | Backend              | Auth & DB           |
+|---------------------|----------------------|----------------------|
+| React + Vite        | Node.js + Express.js | Firebase Auth        |
+| Tailwind CSS        | MongoDB              | JWT for route access |
+| Framer Motion       | RESTful API          |                      |
+
+---
+
+## 📂 Folder Structure
+course-management-system/
+│
+├── client/ # React Frontend
+│ ├── components/
+│ ├── pages/
+│ ├── hooks/
+│ └── App.jsx
+│
+├── server/ # Express + MongoDB Backend
+│ ├── routes/
+│ ├── controllers/
+│ ├── models/
+│ └── server.js
+
